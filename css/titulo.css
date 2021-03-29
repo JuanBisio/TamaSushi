@@ -1,0 +1,43 @@
+
+
+.titulos-header{
+    background-color: #000;
+    color: #eee;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 180px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin-bottom: 60px;
+    height: 480px; 
+}
+.titulo-header{
+    font-size: 40px;
+} 
+
+.titulos-header img{
+    text-align: left;
+    height: 350px;
+    width: 350px;
+}
+
+.logo-nav{
+    padding-top: 30px;
+    border-radius: 50%;
+    position: relative;
+    text-align: left;
+}
+
+
+
+@media screen and (min-width:800px){
+    .titulos-header{
+        padding-bottom: 80px;
+        margin-bottom: 60px;  
+    }
+    .titulo-header{
+        font-size: 40px;
+    }    
+}

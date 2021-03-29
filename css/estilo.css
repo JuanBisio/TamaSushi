@@ -1,0 +1,65 @@
+body{
+    scroll-behavior: smooth;
+    font-family: 'Train One', cursive;
+
+}
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+
+
+@media screen and (min-width:1100px){
+    .tarjetaE{
+        visibility: visible;
+        display: flex;
+        height: 150px;
+        width: 300px;
+    }
+}
+
+
+.footer-div{
+    margin-top: 50px;
+    padding: 10px 0px;
+    background-color: #000;
+    color: #fff;
+}
+.footer-div a i{
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    justify-content: center;
+}
+.footer-div i{
+    display: inline-block;
+}
+.div-icono{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 6px 15px;
+    color: #fff;
+
+}
+.footer-div a{
+    text-decoration: none;
+    padding:0px 15px;
+    color: #fff;
+}
+i{
+    font-size: 22px;
+    padding: 6px 9px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    color:#fff;
+}
+
+.titulo-final{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}

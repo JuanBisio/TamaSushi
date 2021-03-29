@@ -1,0 +1,66 @@
+/* CONTENEDOR */
+@media screen and (max-width:800px){
+    .tarjetaE{
+       visibility: hidden;
+        display: none;
+    }
+}
+
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    /* background-color:#fefefe; */
+}
+
+/* Contenedor sec */
+.tarjeta{
+    height: 150px;
+    width: 300px;
+    margin: 30px;
+    background-color: #aaa;
+    box-shadow:  0 0 6px 0 rgba(0,0,0,.5);
+    border-radius: 5px;
+    overflow: hidden;
+	object-fit: scale-down;
+    cursor: pointer;
+}
+.tarjeta img{
+	object-position: center;
+
+}
+
+
+
+/* Pripiedades Hover */
+.tarjeta-hover{
+    /* position: absolute; */
+    height: 151px;
+    width: 300px;
+    transform: scale(0);
+	background-color: rgba(70, 70, 70, 0.7);
+	transition: transform .5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	border-radius: 5px;
+}
+
+
+.tarjeta-link{
+	color:#fff;
+    text-decoration: none;
+}
+
+
+/* hover */
+.tarjeta:hover .tarjeta-hover{
+    transform: scale(1); 	
+	transform: translateY(-155px);
+	transition: transform .5s;
+    text-decoration: underline;
+}
+
