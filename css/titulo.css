@@ -28,6 +28,8 @@
     border-radius: 50%;
     position: relative;
     text-align: left;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 
