@@ -1,23 +1,60 @@
 main{
-    height: 600px;
-    background-color: #fff;
+    
 }
 
 main i{
     color:#000;
     font-size: 19px;
 }
-
+.desarrollo{
+    background-color:#0b0;
+    text-align: center;
+    min-width: 414px;
+}
 
 .menu-contenedor{
     display: flex;
-    flex-direction: column;
-    margin: 70px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    margin: 50px 0px;
 }
 
 .menu-tarjeta{
-    
-    height: 100px;
-    width: 300px;
-    background-color: #efefef;
+    display: flex;
+    flex-direction: row;
+    /* overflow: hidden; */
+    min-width: 350px;
+    background-color: rgba(220, 220, 220, 0.1);
+    border-radius: 2px;
+    margin: 0px 10px;
+    margin-bottom: 20px;
 }
+.menu-tarjeta > .menu-carrito{
+    align-content: flex-end;
+}
+
+.menu-carrito{
+    display: flex;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.menu-img{
+    height: 150px;
+    width: 300px;
+}
+.titulos-menu{
+    display: flex;
+    flex-direction: column;
+}
+.titulos-menu p{
+    font-size: 19px;
+}
+.boton{
+    justify-content: center;
+}
+

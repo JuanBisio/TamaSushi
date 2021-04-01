@@ -22,9 +22,11 @@ body{
 
 .footer-div{
     margin-top: 50px;
-    padding: 10px 0px;
+    padding: 5px 0px;
     background-color: #000;
     color: #fff;
+    min-width: 414px;
+
 }
 .footer-div a i{
     display: flex;
