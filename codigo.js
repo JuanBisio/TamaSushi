@@ -11,5 +11,4 @@ function toggleMenu (event) {
 // event
 menu.addEventListener('click', toggleMenu, false);
 
-
-let tarjetaE = document.querySelector(".tarjetaE");
+// carrito

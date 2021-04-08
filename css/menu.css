@@ -1,7 +1,7 @@
-main{
-    
-}
 
+main{
+    height: 600px;
+}
 main i{
     color:#000;
     font-size: 19px;
@@ -14,29 +14,44 @@ main i{
 
 .menu-contenedor{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-content: flex-start;
     justify-content: center;
     margin: 50px 0px;
+    overflow: hidden;
 }
 
 .menu-tarjeta{
-    display: flex;
-    flex-direction: row;
-    /* overflow: hidden; */
-    min-width: 350px;
+    display: grid;
+    grid-template-rows: 150px 50px 50px;
+    grid-template-columns:300px;
+    overflow: hidden;
+    min-width: 300px;
     background-color: rgba(220, 220, 220, 0.1);
     border-radius: 2px;
     margin: 0px 10px;
-    margin-bottom: 20px;
 }
+
+@media screen and (max-width:350px;){
+    .menu-tarjeta{
+        display: grid;
+        grid-template-rows:150px;
+        grid-template-columns:300px 50px 25px ;
+        overflow: hidden;
+        min-width: 350px;
+        background-color: rgba(220, 220, 220, 0.1);
+        border-radius: 2px;
+        margin: 0px 10px;
+        margin-bottom: 20px;
+    }
+}
+
 .menu-tarjeta > .menu-carrito{
     align-content: flex-end;
 }
 
 .menu-carrito{
     display: flex;
-    height: 150px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -53,8 +68,34 @@ main i{
 }
 .titulos-menu p{
     font-size: 19px;
-}
-.boton{
-    justify-content: center;
+    text-decoration: underline;
+
 }
 
+/* section cart */
+
+.shopping-cart-items {
+    padding: 20px 0px;
+  }
+  
+  .shopping-cart-header {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .shopping-cart-image {
+    max-width: 80px;
+    border-radius: 20px;
+  }
+  
+  .shopping-cart-quantity-input {
+    max-width: 45px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #eee;
+    padding: 5px;
+  }
+  
+  .shopping-cart-total {
+    min-height: 96px;
+  }
+  
