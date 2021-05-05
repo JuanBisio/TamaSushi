@@ -1,4 +1,7 @@
 /* CONTENEDOR */
+body{
+    background-color:#131516 ;
+}
 @media screen and (max-width:700px){
     .tarjeta:nth-last-child(7) {
        visibility: hidden;
@@ -24,7 +27,7 @@
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    background-color:#fefefe;
+    background-color:#131516;
 }
 
 /* Contenedor sec */
